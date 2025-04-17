@@ -1,100 +1,98 @@
-# 🧠 DCGAN vs Conditional GAN – A Comparative Study in Low-Resource Settings
+<h1 align="center">🧠 GAN Comparative Study: DCGAN vs Conditional GAN in Low-Resource Settings</h1>
 
-> 🚀 Developed by **Sunil R** (sunilr31r@gmail.com)  
-> 📍 Focused on healthcare-related synthetic data generation using GANs
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Healthcare%20AI-blue" />
+  <img src="https://img.shields.io/badge/GAN-Type%3A%20DCGAN%20vs%20Conditional%20GAN-success" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" />
+</p>
 
-This project showcases a **comparative analysis between DCGAN and Conditional GAN** models, optimized for **low-resource environments**, with a key focus on **healthcare applications**. It uses visualizations like loss curves, radar charts, and dimensionality reductions to prove Conditional GAN's superiority in generating synthetic, privacy-preserving medical data.
+<p align="center">
+  <b>A deep dive into the performance comparison of DCGAN and Conditional GAN under resource-constrained environments, designed especially for healthcare applications.</b>
+</p>
 
-![Banner](results/banner.png)
+<hr>
 
----
+<h2>📌 Overview</h2>
 
-## 📌 Table of Contents
+<p>This project focuses on comparing two powerful generative models — <strong>DCGAN</strong> and <strong>Conditional GAN</strong> — in low-resource environments. The models are evaluated using multiple metrics and visualization techniques such as:</p>
 
-- [🧠 Project Overview](#-project-overview)
-- [❤️ Healthcare Applications](#️-healthcare-applications)
-- [📊 Results & Visualizations](#-results--visualizations)
-- [💻 Installation & Running](#-installation--running)
-- [🌐 Clone This Project](#-clone-this-project)
-- [👤 Author & Contact](#-author--contact)
-- [📜 License](#-license)
+<ul>
+  <li>Loss Curves (Generator and Discriminator)</li>
+  <li>Generated Image Quality Comparison</li>
+  <li>Performance Radar Charts (Accuracy, Precision, Recall, F1-Score, AUC)</li>
+  <li>Heatmap of Feature Correlation</li>
+  <li>PCA and t-SNE for Feature Reduction and Cluster Visualization</li>
+</ul>
 
----
+<p><strong>Application Domain:</strong> <em>Healthcare – specifically for generating synthetic patient records and medical images where real data is limited.</em></p>
 
-## 🧠 Project Overview
+<hr>
 
-This repo provides:
+<h2>🧪 Visual Results</h2>
 
-✅ Implementation of **DCGAN** and **Conditional GAN**  
-📉 Side-by-side visual evaluation of both models  
-📊 Includes **loss graphs**, **radar performance**, **PCA**, **t-SNE**, and **heatmaps**  
-🧠 Primary use-case: **Healthcare synthetic data modeling in low-resource environments**
+<h3>1. Generated Images</h3>
+<img src="https://user-images.githubusercontent.com/placeholder/dcgan_vs_cgan_images.png" alt="Generated Images" width="100%">
 
----
+<h3>2. Loss Curves Comparison</h3>
+<img src="https://user-images.githubusercontent.com/placeholder/loss_curves.png" alt="Loss Curves" width="100%">
 
-## ❤️ Healthcare Applications
+<h3>3. Heatmap Comparison</h3>
+<img src="https://user-images.githubusercontent.com/placeholder/heatmap_comparison.png" alt="Heatmap" width="100%">
 
-This GAN-based system is designed for:
+<h3>4. Performance Radar Chart</h3>
+<img src="https://user-images.githubusercontent.com/placeholder/spider_chart.png" alt="Radar Chart" width="100%">
 
-- 🧬 **Synthetic medical data** generation  
-- 🩺 **Data augmentation** in healthcare datasets  
-- 🔐 **Privacy-preserving learning** (no real patient data)  
-- 🤖 Deep learning for **rare conditions** or low-availability samples
+<h3>5. PCA and t-SNE Visualizations</h3>
+<img src="https://user-images.githubusercontent.com/placeholder/pca_tsne.png" alt="PCA t-SNE" width="100%">
 
----
+> 📷 Replace the placeholder image links with actual hosted image links (from GitHub or any CDN like imgbb or PostImage).
 
-## 📊 Results & Visualizations
+<hr>
 
-### 🎨 Generated Samples
+<h2>🚀 How to Run Locally</h2>
 
-| DCGAN Output | Conditional GAN Output |
-|--------------|------------------------|
-| ![DCGAN](results/dcgan_sample.png) | ![CGAN](results/cgan_sample.png) |
+<pre>
+git clone https://github.com/yourusername/GAN-Comparison-Healthcare.git
+cd GAN-Comparison-Healthcare
+pip install -r requirements.txt
+python main.py
+</pre>
 
----
+<hr>
 
-### 📉 Training Loss Curves
+<h2>🌱 How to Contribute</h2>
 
-![Loss](results/loss_curve.png)
+<ol>
+  <li>Fork this repository (<a href="https://github.com/yourusername/GAN-Comparison-Healthcare/fork">click here</a>).</li>
+  <li>Create your branch: <code>git checkout -b feature-name</code></li>
+  <li>Make your changes and commit: <code>git commit -m "Add feature"</code></li>
+  <li>Push to your forked repo: <code>git push origin feature-name</code></li>
+  <li>Submit a pull request 🚀</li>
+</ol>
 
----
+<hr>
 
-### 🔥 Heatmaps – Feature Distribution
+<h2>💡 Key Technologies</h2>
 
-![Heatmap](results/heatmap_comparison.png)
+<ul>
+  <li><strong>Python</strong> - Core implementation</li>
+  <li><strong>TensorFlow</strong> - GAN model creation</li>
+  <li><strong>Matplotlib & Seaborn</strong> - Visualizations</li>
+  <li><strong>PCA / t-SNE</strong> - Dimensionality Reduction</li>
+</ul>
 
----
+<hr>
 
-### 🧭 Radar Chart – Performance Metrics
+<h2>📬 Contact</h2>
 
-![Radar](results/radar_chart.png)
+<p>
+  <strong>Developed by:</strong> Sunil R<br>
+  <strong>Email:</strong> <a href="mailto:sunilr31r@gmail.com">sunilr31r@gmail.com</a><br>
+  <strong>GitHub:</strong> <a href="https://github.com/yourusername">yourusername</a>
+</p>
 
----
+<hr>
 
-### 🧬 Dimensionality Reduction
+<h2>📄 License</h2>
 
-| PCA | t-SNE |
-|-----|-------|
-| ![PCA](results/pca_plot.png) | ![t-SNE](results/tsne_plot.png) |
-
----
-
-## 💻 Installation & Running
-
-### 🧰 Requirements
-
-```bash
-pip install numpy matplotlib seaborn scikit-learn tensorflow
-
-🌐 Clone This Project
-git clone https://github.com/your-username/low-resource-gans-comparison.git
-cd low-resource-gans-comparison
-python untitled4.py
-
-👤 Author & Contact
-👨‍💻 Developed by: Sunil R
-📧 Email: sunilr31r@gmail.com
-🔗 GitHub: @your-username
-
-If you use this work or are inspired by it, please consider giving credit or dropping a thank-you email. 🙌
-
+<p>This project is licensed under the MIT License - feel free to use, modify, and share.</p>
