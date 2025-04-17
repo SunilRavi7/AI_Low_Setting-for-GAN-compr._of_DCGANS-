@@ -1,85 +1,100 @@
-# 🧠 GAN-Based Comparative Study: DCGAN vs Conditional GAN in Low-Resource Settings
+# 🧠 DCGAN vs Conditional GAN – A Comparative Study in Low-Resource Settings
 
-A visual and analytical deep dive comparing **DCGAN** and **Conditional GAN** performance for synthetic data generation under **low-resource environments**, focused on **healthcare applications**.
+> 🚀 Developed by **Sunil R** (sunilr31r@gmail.com)  
+> 📍 Focused on healthcare-related synthetic data generation using GANs
 
-![Banner](https://drive.google.com/file/d/18HkzJgCitOu_li-w6WrORb6YeTr-i5rA/view?usp=sharing)
+This project showcases a **comparative analysis between DCGAN and Conditional GAN** models, optimized for **low-resource environments**, with a key focus on **healthcare applications**. It uses visualizations like loss curves, radar charts, and dimensionality reductions to prove Conditional GAN's superiority in generating synthetic, privacy-preserving medical data.
+
+![Banner](results/banner.png)
 
 ---
 
 ## 📌 Table of Contents
 
-- [About the Project](#about-the-project)
-- [Applications in Healthcare](#applications-in-healthcare)
-- [Results and Visualizations](#results-and-visualizations)
-- [Installation & Setup](#installation--setup)
-- [Usage](#usage)
-- [Clone and Fork](#clone-and-fork)
-- [Contact](#contact)
-- [License](#license)
+- [🧠 Project Overview](#-project-overview)
+- [❤️ Healthcare Applications](#️-healthcare-applications)
+- [📊 Results & Visualizations](#-results--visualizations)
+- [💻 Installation & Running](#-installation--running)
+- [🌐 Clone This Project](#-clone-this-project)
+- [👤 Author & Contact](#-author--contact)
+- [📜 License](#-license)
 
 ---
 
-## 📖 About the Project
+## 🧠 Project Overview
 
-- 🔍 **Comparative study** of DCGAN vs Conditional GAN
-- 🎯 Emphasis on **low-resource environments**
-- 📈 Includes **performance metrics, visualizations, PCA, t-SNE**
-- 💊 Focused on **healthcare data synthesis and augmentation**
+This repo provides:
 
----
-
-## ❤️ Applications in Healthcare
-
-This system is designed to help in:
-
-- 🔬 Augmenting medical image datasets for training deep models
-- 🧬 Synthesizing sensitive patient data while preserving privacy
-- ⚕️ Generating rare or underrepresented classes in diagnosis datasets
-- 🤖 Boosting model generalization in data-scarce healthcare scenarios
+✅ Implementation of **DCGAN** and **Conditional GAN**  
+📉 Side-by-side visual evaluation of both models  
+📊 Includes **loss graphs**, **radar performance**, **PCA**, **t-SNE**, and **heatmaps**  
+🧠 Primary use-case: **Healthcare synthetic data modeling in low-resource environments**
 
 ---
 
-## 🧪 Results and Visualizations
+## ❤️ Healthcare Applications
 
-### 🎨 Generated Image Comparison
+This GAN-based system is designed for:
 
-| DCGAN | Conditional GAN |
-|-------|------------------|
-| ![DCGAN Image](https://drive.google.com/uc?export=view&id=YOUR_DCGAN_IMAGE_ID) | ![CGAN Image](https://drive.google.com/uc?export=view&id=YOUR_CGAN_IMAGE_ID) |
-
----
-
-### 📉 Loss Curve Comparison
-
-![Loss Curves](https://drive.google.com/uc?export=view&id=YOUR_LOSS_CURVE_IMAGE_ID)
+- 🧬 **Synthetic medical data** generation  
+- 🩺 **Data augmentation** in healthcare datasets  
+- 🔐 **Privacy-preserving learning** (no real patient data)  
+- 🤖 Deep learning for **rare conditions** or low-availability samples
 
 ---
 
-### 🔥 Feature Heatmaps
+## 📊 Results & Visualizations
 
-![Heatmap](https://drive.google.com/uc?export=view&id=YOUR_HEATMAP_IMAGE_ID)
+### 🎨 Generated Samples
 
----
-
-### 🧭 Radar Performance Chart
-
-![Radar Chart](https://drive.google.com/uc?export=view&id=YOUR_RADAR_IMAGE_ID)
+| DCGAN Output | Conditional GAN Output |
+|--------------|------------------------|
+| ![DCGAN](results/dcgan_sample.png) | ![CGAN](results/cgan_sample.png) |
 
 ---
 
-### 🧬 PCA vs t-SNE Feature Reduction
+### 📉 Training Loss Curves
+
+![Loss](results/loss_curve.png)
+
+---
+
+### 🔥 Heatmaps – Feature Distribution
+
+![Heatmap](results/heatmap_comparison.png)
+
+---
+
+### 🧭 Radar Chart – Performance Metrics
+
+![Radar](results/radar_chart.png)
+
+---
+
+### 🧬 Dimensionality Reduction
 
 | PCA | t-SNE |
-|-----|------|
-| ![PCA](https://drive.google.com/uc?export=view&id=YOUR_PCA_IMAGE_ID) | ![t-SNE](https://drive.google.com/uc?export=view&id=YOUR_TSNE_IMAGE_ID) |
-
-> 📌 *Conditional GANs show superior feature diversity, cluster quality, and metric consistency.*
+|-----|-------|
+| ![PCA](results/pca_plot.png) | ![t-SNE](results/tsne_plot.png) |
 
 ---
 
-## 💻 Installation & Setup
+## 💻 Installation & Running
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/low-resource-gans-comparison.git
-   cd low-resource-gans-comparison
+### 🧰 Requirements
+
+```bash
+pip install numpy matplotlib seaborn scikit-learn tensorflow
+
+🌐 Clone This Project
+git clone https://github.com/your-username/low-resource-gans-comparison.git
+cd low-resource-gans-comparison
+python untitled4.py
+
+👤 Author & Contact
+👨‍💻 Developed by: Sunil R
+📧 Email: sunilr31r@gmail.com
+🔗 GitHub: @your-username
+
+If you use this work or are inspired by it, please consider giving credit or dropping a thank-you email. 🙌
+
