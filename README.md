@@ -31,19 +31,19 @@
 <h2>🧪 Visual Results</h2>
 
 <h3>1. Generated Images</h3>
-<img src="https://user-images.githubusercontent.com/placeholder/dcgan_vs_cgan_images.png" alt="Generated Images" width="100%">
+<img src="[https://user-images.githubusercontent.com/placeholder/dcgan_vs_cgan_images.png](https://github.com/SunilRavi7/AI_Low_Setting-for-GAN-compr._of_DCGANS-/blob/main/Results/1.PNG)" alt="Generated Images" width="100%">
 
 <h3>2. Loss Curves Comparison</h3>
-<img src="https://user-images.githubusercontent.com/placeholder/loss_curves.png" alt="Loss Curves" width="100%">
+<img src="https://github.com/SunilRavi7/AI_Low_Setting-for-GAN-compr._of_DCGANS-/blob/main/Results/2.PNG" alt="Loss Curves" width="100%">
 
 <h3>3. Heatmap Comparison</h3>
-<img src="https://user-images.githubusercontent.com/placeholder/heatmap_comparison.png" alt="Heatmap" width="100%">
+<img src="https://github.com/SunilRavi7/AI_Low_Setting-for-GAN-compr._of_DCGANS-/blob/main/Results/3.PNG" alt="Heatmap" width="100%">
 
 <h3>4. Performance Radar Chart</h3>
-<img src="https://user-images.githubusercontent.com/placeholder/spider_chart.png" alt="Radar Chart" width="100%">
+<img src="https://github.com/SunilRavi7/AI_Low_Setting-for-GAN-compr._of_DCGANS-/blob/main/Results/4.PNG" alt="Radar Chart" width="100%">
 
 <h3>5. PCA and t-SNE Visualizations</h3>
-<img src="https://user-images.githubusercontent.com/placeholder/pca_tsne.png" alt="PCA t-SNE" width="100%">
+<img src="https://github.com/SunilRavi7/AI_Low_Setting-for-GAN-compr._of_DCGANS-/blob/main/Results/6.PNG" alt="PCA t-SNE" width="100%">
 
 <hr>
 
