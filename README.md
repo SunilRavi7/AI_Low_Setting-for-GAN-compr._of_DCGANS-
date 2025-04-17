@@ -31,7 +31,7 @@
 <h2>🧪 Visual Results</h2>
 
 <h3>1. Generated Images</h3>
-<img src="[https://user-images.githubusercontent.com/placeholder/dcgan_vs_cgan_images.png](https://github.com/SunilRavi7/AI_Low_Setting-for-GAN-compr._of_DCGANS-/blob/main/Results/1.PNG)" alt="Generated Images" width="300%">
+<img src="https://github.com/SunilRavi7/AI_Low_Setting-for-GAN-compr._of_DCGANS-/blob/main/Results/1.PNG" alt="Generated Images" width="100%">
 
 <h3>2. Loss Curves Comparison</h3>
 <img src="https://github.com/SunilRavi7/AI_Low_Setting-for-GAN-compr._of_DCGANS-/blob/main/Results/2.PNG" alt="Loss Curves" width="100%">
