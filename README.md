@@ -45,8 +45,6 @@
 <h3>5. PCA and t-SNE Visualizations</h3>
 <img src="https://user-images.githubusercontent.com/placeholder/pca_tsne.png" alt="PCA t-SNE" width="100%">
 
-> 📷 Replace the placeholder image links with actual hosted image links (from GitHub or any CDN like imgbb or PostImage).
-
 <hr>
 
 <h2>🚀 How to Run Locally</h2>
