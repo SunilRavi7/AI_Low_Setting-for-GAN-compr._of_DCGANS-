@@ -1,8 +1,8 @@
 # 🧠 GAN-Based Comparative Study: DCGAN vs Conditional GAN in Low-Resource Settings
 
-This project presents a comprehensive **comparative analysis** between **DCGAN (Deep Convolutional GAN)** and **Conditional GAN** architectures under low-resource settings. Using extensive visualizations and performance metrics, it emphasizes how **Conditional GANs outperform traditional DCGANs**, particularly for synthetic data generation relevant to **healthcare applications**.
+A visual and analytical deep dive comparing **DCGAN** and **Conditional GAN** performance for synthetic data generation under **low-resource environments**, focused on **healthcare applications**.
 
-![GAN Comparison Banner](https://drive.google.com/file/d/18HkzJgCitOu_li-w6WrORb6YeTr-i5rA/view?usp=sharing)
+![Banner](https://drive.google.com/file/d/18HkzJgCitOu_li-w6WrORb6YeTr-i5rA/view?usp=sharing)
 
 ---
 
@@ -15,57 +15,71 @@ This project presents a comprehensive **comparative analysis** between **DCGAN (
 - [Usage](#usage)
 - [Clone and Fork](#clone-and-fork)
 - [Contact](#contact)
+- [License](#license)
 
 ---
 
 ## 📖 About the Project
 
-- ✅ Comparative analysis of **DCGAN** vs **Conditional GAN**
-- 📊 Includes **loss curves**, **PCA/t-SNE plots**, **heatmaps**, and **radar charts**
-- 🖼️ Shows side-by-side **image generation quality**
-- 🚀 Designed for **low-data environments**, especially in **healthcare-related data synthesis**
+- 🔍 **Comparative study** of DCGAN vs Conditional GAN
+- 🎯 Emphasis on **low-resource environments**
+- 📈 Includes **performance metrics, visualizations, PCA, t-SNE**
+- 💊 Focused on **healthcare data synthesis and augmentation**
 
 ---
 
 ## ❤️ Applications in Healthcare
 
-This project is focused on **synthetic medical data generation** for enhancing:
+This system is designed to help in:
 
-- 🔬 Medical image augmentation for deep learning models
-- 🧬 Privacy-preserving patient data generation
-- 🏥 Data balancing in underrepresented medical classes (e.g., rare diseases)
-- ⚙️ Assisting GAN training where **real patient data is limited or sensitive**
+- 🔬 Augmenting medical image datasets for training deep models
+- 🧬 Synthesizing sensitive patient data while preserving privacy
+- ⚕️ Generating rare or underrepresented classes in diagnosis datasets
+- 🤖 Boosting model generalization in data-scarce healthcare scenarios
 
 ---
 
 ## 🧪 Results and Visualizations
 
-### 🎨 Generated Images Comparison
+### 🎨 Generated Image Comparison
+
 | DCGAN | Conditional GAN |
 |-------|------------------|
-| ![DCGAN Sample](https://via.placeholder.com/120x120.png?text=DCGAN) | ![CGAN Sample](https://via.placeholder.com/120x120.png?text=CGAN) |
+| ![DCGAN Image](https://drive.google.com/uc?export=view&id=YOUR_DCGAN_IMAGE_ID) | ![CGAN Image](https://drive.google.com/uc?export=view&id=YOUR_CGAN_IMAGE_ID) |
 
-### 📉 Loss Curves
-![Loss Curves](https://via.placeholder.com/800x300.png?text=Loss+Curves)
+---
 
-### 🔥 Heatmaps
-![Heatmap](https://via.placeholder.com/600x300.png?text=Feature+Heatmap)
+### 📉 Loss Curve Comparison
+
+![Loss Curves](https://drive.google.com/uc?export=view&id=YOUR_LOSS_CURVE_IMAGE_ID)
+
+---
+
+### 🔥 Feature Heatmaps
+
+![Heatmap](https://drive.google.com/uc?export=view&id=YOUR_HEATMAP_IMAGE_ID)
+
+---
 
 ### 🧭 Radar Performance Chart
-![Radar](https://via.placeholder.com/400x400.png?text=Radar+Chart)
 
-### 📉 PCA and t-SNE Reductions
+![Radar Chart](https://drive.google.com/uc?export=view&id=YOUR_RADAR_IMAGE_ID)
+
+---
+
+### 🧬 PCA vs t-SNE Feature Reduction
+
 | PCA | t-SNE |
 |-----|------|
-| ![PCA](https://via.placeholder.com/250x250.png?text=PCA+Plot) | ![t-SNE](https://via.placeholder.com/250x250.png?text=t-SNE+Plot) |
+| ![PCA](https://drive.google.com/uc?export=view&id=YOUR_PCA_IMAGE_ID) | ![t-SNE](https://drive.google.com/uc?export=view&id=YOUR_TSNE_IMAGE_ID) |
 
-> 📌 *Results indicate Conditional GANs produce significantly more feature-rich, diverse, and realistic data compared to standard DCGANs.*
+> 📌 *Conditional GANs show superior feature diversity, cluster quality, and metric consistency.*
 
 ---
 
 ## 💻 Installation & Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/SunilRavi7/low-resource-gans-comparison.git
+   git clone https://github.com/your-username/low-resource-gans-comparison.git
    cd low-resource-gans-comparison
