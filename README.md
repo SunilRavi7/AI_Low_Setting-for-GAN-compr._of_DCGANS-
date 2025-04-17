@@ -2,7 +2,7 @@
 
 This project presents a comprehensive **comparative analysis** between **DCGAN (Deep Convolutional GAN)** and **Conditional GAN** architectures under low-resource settings. Using extensive visualizations and performance metrics, it emphasizes how **Conditional GANs outperform traditional DCGANs**, particularly for synthetic data generation relevant to **healthcare applications**.
 
-![GAN Comparison Banner](https://via.placeholder.com/1000x200.png?text=DCGAN+vs+Conditional+GAN+Comparative+Study)
+![GAN Comparison Banner](https://drive.google.com/file/d/18HkzJgCitOu_li-w6WrORb6YeTr-i5rA/view?usp=sharing)
 
 ---
 
